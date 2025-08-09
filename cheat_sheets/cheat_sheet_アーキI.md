@@ -7,19 +7,19 @@
 ### 重要公式
 
 * **ICのコスト (IC Cost)**
-  * ダイ1個あたりのコスト: $Cost\ per\ die = \frac{Cost\ per\ wafer}{Dies\ per\ wafer \times Yield}$ 
-  * ウェーハあたりのダイ数: $Dies\ per\ wafer \approx \frac{Wafer\ area}{Die\ area}$ 
-  * 歩留まり: $Yield = \frac{1}{(1 + (Defects\ per\ area \times Die\ area / 2))^2}$ 
+  * ダイ1個あたりのコスト: $Cost\ per\ die = \frac{Cost\ per\ wafer}{Dies\ per\ wafer \times Yield}$
+  * ウェーハあたりのダイ数: $Dies\ per\ wafer \approx \frac{Wafer\ area}{Die\ area}$
+  * 歩留まり: $Yield = \frac{1}{(1 + (Defects\ per\ area \times Die\ area / 2))^2}$
 
 * **性能と実行時間 (Performance and Execution Time)**
-  * 相対性能: $性能 = \frac{1}{実行時間}$ 
+  * 相対性能: $性能 = \frac{1}{実行時間}$
   * **CPU実行時間 (CPU Time):**\
     $CPU時間 = CPUクロックサイクル数 \times クロックサイクル時間 = \frac{CPUクロックサイクル数}{クロック周波数}$\
     $CPU時間 = \frac{実行命令数 \times CPI}{クロック周波数}$\
     $CPU時間 = 実行命令数 \times CPI \times クロックサイクル時間$
 
 * **消費電力 (Power)**
-  * CMOS ICの消費電力: $Power = Capacitive\ load \times Voltage^2 \times Frequency$ 
+  * CMOS ICの消費電力: $Power = Capacitive\ load \times Voltage^2 \times Frequency$
 
 ### 基本用語
 
@@ -157,4 +157,3 @@ C言語の配列アクセスとポインタ演算は、MIPSでは以下のよう
 | R形式 | 10 | and | 100100 | AND | 0000 |
 | R形式 | 10 | or | 100101 | OR | 0001 |
 | R形式 | 10 | slt | 101010 | set on less than | 0111 |
-
